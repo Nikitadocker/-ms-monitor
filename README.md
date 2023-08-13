@@ -1,2 +1,2 @@
 # -ms-monitor
-stidy for monitoring
+study for monitoring
