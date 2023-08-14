@@ -2,7 +2,10 @@ server {
         listen 80;
         listen [::]:80;
 
-        server_name test.local www.test.local;
+        server_name test.org www.test.org;
+
+        access_log /var/log/nginx/access.log;
+        error_log /var/log/nginx/error.log;
 
         index index.php index.html index.htm;
 
